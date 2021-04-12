@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridnineTest", "GridnineTest\GridnineTest.csproj", "{C6621A24-10F8-48E2-93DE-4A1E128B6B58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6621A24-10F8-48E2-93DE-4A1E128B6B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6621A24-10F8-48E2-93DE-4A1E128B6B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6621A24-10F8-48E2-93DE-4A1E128B6B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6621A24-10F8-48E2-93DE-4A1E128B6B58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9941CB89-14A9-43DB-A615-EA72AFFEC864}
+	EndGlobalSection
+EndGlobal
