@@ -3,6 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Gridnine.FlightCodingTest</AssemblyName>
+    <RootNamespace>Gridnine.FlightCodingTest</RootNamespace>
   </PropertyGroup>
 
 </Project>

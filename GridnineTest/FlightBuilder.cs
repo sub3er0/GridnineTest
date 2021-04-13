@@ -24,7 +24,7 @@ namespace Gridnine.FlightCodingTest
 			               CreateFlight(_threeDaysFromNow, _threeDaysFromNow.AddHours(2), _threeDaysFromNow.AddHours(3), _threeDaysFromNow.AddHours(5)),
                            
                            //A flight departing in the past
-                           CreateFlight(_threeDaysFromNow.AddDays(-6), _threeDaysFromNow),
+                           CreateFlight(_threeDaysFromNow.AddDays(-6), _threeDaysFromNow, _threeDaysFromNow.AddDays(-4), _threeDaysFromNow),
 
                            //A flight that departs before it arrives
                            CreateFlight(_threeDaysFromNow, _threeDaysFromNow.AddHours(-6)),
