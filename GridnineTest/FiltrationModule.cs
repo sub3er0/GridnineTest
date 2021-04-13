@@ -26,7 +26,7 @@ namespace Gridnine.FlightCodingTest
             }
             foreach (var invalidFlight in invalidFlights)
                 flights.Remove(invalidFlight);
-            Console.WriteLine(flights.Count);
+            Console.WriteLine("Количество перелетов после фильтрации: " + flights.Count);
         }
 
         public static void DepartsBeforeItArrivesCheck(IList<Flight> flights)
@@ -47,7 +47,7 @@ namespace Gridnine.FlightCodingTest
             }
             foreach (var invalidFlight in invalidFlights)
                 flights.Remove(invalidFlight);
-            Console.WriteLine(flights.Count);
+            Console.WriteLine("Количество перелетов после фильтрации: " + flights.Count);
         }
 
         public static void FlightWithMoreThanTwoHoursGroundCheck(IList<Flight> flights)
@@ -70,7 +70,7 @@ namespace Gridnine.FlightCodingTest
             }
             foreach (var invalidFlight in invalidFlights)
                 flights.Remove(invalidFlight);
-            Console.WriteLine(flights.Count);
+            Console.WriteLine("Количество перелетов после фильтрации: " + flights.Count);
         }
     }
 }
